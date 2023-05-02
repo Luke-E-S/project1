@@ -10,6 +10,8 @@ html {
     box-sizing: inherit;
 }
 
+/* Header content */
+
 .header-container {
     background-color: #1f2937;
     margin: 0 200px 0 200px;
@@ -36,7 +38,8 @@ html {
     color: #e5e7eb;
     padding: 10px;
 }
-.link-one,
-.link-two,
-.link-three {
+
+/* Header content */
+
+/* Sub Header content */
    
