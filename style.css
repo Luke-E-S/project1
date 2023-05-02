@@ -13,7 +13,6 @@ html {
 /* Header content */
 
 .header-container {
-    background-color: #1f2937;
     margin: 0 200px 0 200px;
     display: flex;
 }
