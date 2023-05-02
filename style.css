@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+    
+    background-color: #1f2937;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header-container {
+    background-color: #1f2937;
+    margin: 0 200px 0 200px;
+    display: flex;
+}
+.header-container .header {
+    margin-left: 50px;
+    display: flex;
+    flex: 1 1 auto;
+}
+.header-container .header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-container .links {
+    margin-right: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+}
+.header-container .links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 10px;
+}
+.link-one,
+.link-two,
+.link-three {
+   
