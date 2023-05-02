@@ -1,7 +1,7 @@
 html {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
     background-color: #1f2937;
+    font-family: roboto, sans-serif;
 }
 
 *,
@@ -41,4 +41,36 @@ html {
 /* Header content */
 
 /* Sub Header content */
+
+.subheader-container {
+    display: flex;
+    margin: 0 200px 0 200px;
+    color: #ffffff;
+    justify-content: center;
+}
+.subheader-container .signup-container {
+    display:flex;
+    flex-direction: column;
+    width: 450px;
+    margin-right: 200px;
+}
+.subheader-container .signup-container h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.subheader-container .signup-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.subheader-container .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #666666;
+    width: 800px;
+
+}
    
