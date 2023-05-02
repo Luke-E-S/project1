@@ -15,27 +15,24 @@ html {
 .header-container {
     margin: 0 200px 0 200px;
     display: flex;
+    justify-content: space-between;
 }
 .header-container .header {
-    margin-left: 50px;
     display: flex;
-    flex: 1 1 auto;
 }
 .header-container .header h1 {
     font-size: 24px;
     color: #f9faf8;
 }
 .header-container .links {
-    margin-right: 50px;
-    justify-content: flex-end;
     align-items: center;
     display: flex;
-    flex: 1 1 auto;
 }
 .header-container .links a {
     text-decoration: none;
+    font-size: 18px;
     color: #e5e7eb;
-    padding: 10px;
+    padding: 0 0 0 48px;
 }
 
 /* Header content */
@@ -44,15 +41,17 @@ html {
 
 .subheader-container {
     display: flex;
-    margin: 0 200px 0 200px;
+    margin: 100px 200px 0 200px;
     color: #ffffff;
-    justify-content: center;
+    
+    justify-content: space-between;
 }
 .subheader-container .signup-container {
     display:flex;
     flex-direction: column;
     width: 450px;
     margin-right: 200px;
+    
 }
 .subheader-container .signup-container h1 {
     font-size: 48px;
@@ -70,7 +69,6 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #666666;
-    width: 800px;
-
+    width: 650px;
 }
    
