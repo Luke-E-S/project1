@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
 html {
     box-sizing: border-box;    
     background-color: #1f2937;
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 *,
@@ -101,6 +104,7 @@ html {
 .body-container-one .images {
     display: flex;
     flex-direction: row;    
+    margin-bottom: 100px;
 }
 .body-container-one .images .image {
     width: 150px;
@@ -113,5 +117,25 @@ html {
     border: 2px solid #3882f6;
     border-radius: 12px;
     height: 150px;
+}
+.qoute-container {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+.qoute-container .qoute {
+    display:block;
+    margin: 100px 0;
+    font-family:Roboto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 800px
+}
+.qoute-container .qoute .ref {
+    font-weight: bold;
+    text-align: end;
+    font-style: normal;
 }
    
