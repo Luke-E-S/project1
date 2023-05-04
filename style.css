@@ -96,7 +96,6 @@ body {
 }
 .body-container-one {
     margin-top: 100px;
-    padding-bottom: 100px;
     display: flex;
     background-color: #ffffff;
     flex-direction: column;
@@ -110,7 +109,7 @@ body {
 .body-container-one .images {
     display: flex;
     flex-direction: row;    
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .body-container-one .images .image {
     width: 150px;
@@ -132,7 +131,7 @@ body {
 }
 .qoute-container .qoute {
     display:block;
-    margin: 100px 0;
+    margin: 50px 0;
     font-family:Roboto;
     font-size: 36px;
     font-style: italic;
