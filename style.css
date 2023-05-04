@@ -167,4 +167,10 @@ html {
     color: white;
     font-weight: bold;
 }
+
+.footer {
+    text-align: center;
+    color:white;
+    padding: 20px;
+}
    
