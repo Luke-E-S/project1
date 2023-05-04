@@ -75,6 +75,7 @@ html {
     width: 600px;
     height: 300px;
     border: 1px solid;
+    object-fit: cover;
 }
 .subheader-container .signup-container button {
     background-color: #3882f6;
@@ -123,6 +124,7 @@ body {
     border: 2px solid #3882f6;
     border-radius: 12px;
     height: 150px;
+    object-fit: cover;
 }
 .qoute-container {
     display: flex;
