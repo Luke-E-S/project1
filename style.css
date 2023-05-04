@@ -87,11 +87,13 @@ html {
 
 /* body content */
 
+body {
+    margin: 0; /*remove default margin*/
+}
 .body-container-one {
     margin-top: 100px;
     padding-bottom: 100px;
     display: flex;
-    padding: 0 200px;
     background-color: #ffffff;
     flex-direction: column;
     align-items: center;
