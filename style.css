@@ -69,11 +69,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #666666;
 }
 .subheader-container .image img {
     width: 600px;
-    height: 300px;
+    height: 325px;
     border: 1px solid;
     object-fit: cover;
 }
