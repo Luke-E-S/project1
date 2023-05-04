@@ -16,7 +16,7 @@ html {
 /* Header content */
 
 .header-container {
-    margin: 0 200px 0 200px;
+    margin: 0 400px;
     display: flex;
     justify-content: space-between;
 }
@@ -42,7 +42,7 @@ html {
 
 .subheader-container {
     display: flex;
-    margin: 100px 200px 0 200px;
+    margin: 100px 400px 0 400px;
     color: #ffffff;
     
     justify-content: space-between;
